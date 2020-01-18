@@ -1,0 +1,139 @@
+{
+    "subID": "s00318",
+    "sex": "m",
+    "age": 12,
+    "dateOfBirth": "13/02/03",
+    "wafeData": [
+        {
+            "Time and date": "18:04:00 07/11/2014",
+            "HR": 0.0,
+            "ABPSys": 0.0,
+            "ABPDias": 0.0,
+            "ABPMean": 0.0,
+            "PAPMean": 0.0,
+            "CVP": 0.0,
+            "PULSE": 0.0,
+            "RESP": 0.0,
+            "SpO2": 0.0,
+            "NBPSys": -1.0,
+            "NBPDias": -1.0,
+            "NBPMean": -1.0
+        },
+        {
+            "Time and date": "18:05:00 07/11/2014",
+            "HR": 0.0,
+            "ABPSys": 0.0,
+            "ABPDias": 0.0,
+            "ABPMean": 0.0,
+            "PAPMean": 0.0,
+            "CVP": 0.0,
+            "PULSE": 0.0,
+            "RESP": 0.0,
+            "SpO2": 0.0,
+            "NBPSys": -1.0,
+            "NBPDias": -1.0,
+            "NBPMean": -1.0
+        },
+        {
+            "Time and date": "18:06:00 07/11/2014",
+            "HR": 0.0,
+            "ABPSys": 0.0,
+            "ABPDias": 0.0,
+            "ABPMean": 0.0,
+            "PAPMean": 0.0,
+            "CVP": 0.0,
+            "PULSE": 0.0,
+            "RESP": 0.0,
+            "SpO2": 0.0,
+            "NBPSys": -1.0,
+            "NBPDias": -1.0,
+            "NBPMean": -1.0
+        },
+        {
+            "Time and date": "18:07:00 07/11/2014",
+            "HR": 0.0,
+            "ABPSys": 0.0,
+            "ABPDias": 0.0,
+            "ABPMean": 0.0,
+            "PAPMean": 0.0,
+            "CVP": 0.0,
+            "PULSE": 0.0,
+            "RESP": 0.0,
+            "SpO2": 0.0,
+            "NBPSys": -1.0,
+            "NBPDias": -1.0,
+            "NBPMean": -1.0
+        },
+        {
+            "Time and date": "18:08:00 07/11/2014",
+            "HR": 0.0,
+            "ABPSys": 0.0,
+            "ABPDias": 0.0,
+            "ABPMean": 0.0,
+            "PAPMean": 0.0,
+            "CVP": 0.0,
+            "PULSE": 0.0,
+            "RESP": 0.0,
+            "SpO2": 0.0,
+            "NBPSys": -1.0,
+            "NBPDias": -1.0,
+            "NBPMean": -1.0
+        },
+        {
+            "Time and date": "18:09:00 07/11/2014",
+            "HR": 0.0,
+            "ABPSys": 0.0,
+            "ABPDias": 0.0,
+            "ABPMean": 0.0,
+            "PAPMean": 0.0,
+            "CVP": 0.0,
+            "PULSE": 0.0,
+            "RESP": 0.0,
+            "SpO2": 0.0,
+            "NBPSys": -1.0,
+            "NBPDias": -1.0,
+            "NBPMean": -1.0
+        }
+    ],
+    "clinicalData": {
+        "medicationEvent": [],
+        "physicianOrder": [],
+        "solution": [],
+        "totalIOEvent": [],
+        "IOEvent": [],
+        "ICD9": [
+            {
+                "date": "00:00:00 14/07/2009",
+                "source": "ic",
+                "dd": "41071",
+                "ds": 1,
+                "ld": "AMI, SUBENDOCARD INFARCT"
+            },
+            {
+                "date": "00:00:00 14/07/2009",
+                "source": "ic",
+                "dd": "41401",
+                "ds": 4,
+                "ld": "CORON ATHEROSCLER NATIVE"
+            },
+            {
+                "date": "00:00:00 14/07/2009",
+                "source": "ic",
+                "dd": "42741",
+                "ds": 3,
+                "ld": "VENTRICULAR FIBRILLATION"
+            },
+            {
+                "date": "00:00:00 14/07/2009",
+                "source": "ic",
+                "dd": "4280",
+                "ds": 2,
+                "ld": "CONGESTIVE HEART FAILURE"
+            }
+        ],
+        "additive": [],
+        "censusEvent": [],
+        "chartEvent": [],
+        "Delivery": []
+    }
+}
