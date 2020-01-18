@@ -260,9 +260,9 @@ def main():
 
 	patient= dict()
 	patient['subID']= 's00439'
-	patient['sex']= 'm'
-	patient['age']= 12
-	patient['dateOfBirth']= '13/02/03'
+	patient['sex']= 'f'
+	patient['age']= 82
+	patient['dateOfBirth']= '22/12/1930'
 
 	wfData = getWaveData('S00439-patient-02/a40064n.csv', list())
 	patient['wafeData'] = wfData
