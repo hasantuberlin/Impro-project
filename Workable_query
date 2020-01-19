@@ -1,0 +1,115 @@
+GET shortp1p3/_search
+{
+   "_source": ["sex", "subID", "wafeData.HR"],
+
+    "query":  {
+        "nested" : {
+            "path" : "wafeData",
+            "query" : {
+                "bool" : {
+                    "must" : [
+                   
+                    { "range" : {"wafeData.HR" : {"gt" : 20.0, "lt": 91}} }
+                    ]
+                }
+            },
+            "score_mode" : "avg",
+            "inner_hits": {
+              "_source": ["sex", "subID", "wafeData.HR"],
+        "highlight": {
+          "fields": {
+            "wafeData.HR": {}
+          }
+        }
+      }
+        }
+    }
+}
+
+GET shortp1p3/_search
+
+
+GET shortp1p3/_search
+{
+ 
+  "query": {
+    "nested": {
+      "path": "wafeData",
+      "query": {
+        "bool": {
+          "must": [
+            { "match": { "wafeData.HR": 1.0 }},
+            { "match": { "wafeData.RESP":  15.0 }}
+          ]
+        }
+      },
+      "inner_hits": {
+         "_source": ["sex", "subID", "wafeData.HR","wafeData.RESP"],
+        "highlight": {
+          "fields": {
+            "wafeData.HR": {}
+          }
+        }
+      }
+    }
+  }
+}
+
+
+GET shortp1p3/_search
+{
+  "query": {
+    "nested": {
+      "path": "wafeData",
+      "query": {
+        "bool": {
+          "must": [
+            { "match": { "wafeData.HR": 1.0 }},
+            { "match": { "wafeData.RESP":  15.0 }}
+          ]
+        }
+      },
+      "inner_hits": {
+        "_source": ["sex", "subID", "wafeData.HR","wafeData.RESP"],
+        "highlight": {
+          "fields": {
+            "wafeData.HR": {}
+          }
+        }
+      }
+    }
+  }
+}
+
+GET shortp1p3/_search
+
+
+
+
+GET shortp1p3/_search
+{
+   "_source": ["sex", "subID", "wafeData.HR"],
+
+    "query":  {
+        "nested" : {
+            "path" : "wafeData",
+            "query" : {
+                "bool" : {
+                    "must" : [
+                   
+                    { "range" : {"wafeData.Time and date" : {"gt" : "16:11:00 8/07/2009", "lt": "23:13:00 8/07/2009"}} }
+                    ]
+                }
+            },
+            "score_mode" : "avg",
+            "inner_hits": {
+              "_source": ["sex", "subID", "wafeData.HR","wafeData.Time and date"],
+        "highlight": {
+          "fields": {
+            "wafeData.HR": {}
+          }
+        }
+      }
+        }
+    }
+}
