@@ -1,3 +1,5 @@
+#We can run those query in KIbana dev tools to see the index data or check whether the index works properly
+
 GET shortp1p3/_search
 {
    "_source": ["sex", "subID", "wafeData.HR"],
