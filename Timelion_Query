@@ -1,0 +1,7 @@
+#Timeseries query
+#To see the Heart Rate for patient s02172 
+.es(index=improwisef*, timefield="Time and date", metric=max:HR, q=cid:s02172)
+#if we want to see the multiple graph from one one visualization frame, we can add more query by using comma.
+
+.es(index=improwisef*, timefield="Time and date", metric=max:HR, q=cid:s02172),
+.es(index=improwisef*, timefield="Time and date", metric=max:PULSE, q=cid:s02172)
